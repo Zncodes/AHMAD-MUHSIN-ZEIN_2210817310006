@@ -1,0 +1,23 @@
+a,b,o,j,x,y = input().split()
+a = float(a)
+b = float(b)
+o = float(o)
+j = float(j)
+x = float(x)
+y = float(y)
+h = (a-b)*o/j-(x+y)
+
+print("%.3f \n" %h)
+
+a1,b1 = input().split()
+o1,j1 = input().split()
+x1,y1 = input().split()
+a1 = float(a1)
+b1 = float(b1)
+o1 = float(o1)
+j1 = float(j1)
+x1 = float(x1)
+y1 = float(y1)
+h1 = (a1-b1)*o1/j1-(x1+y1)
+
+print("%.3f \n" %h1)
